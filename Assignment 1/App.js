@@ -1,7 +1,7 @@
 angular.module('myFirstAsgnmt', [])
 .controller('Ctrl', function($scope){
     $scope.items = "";
-
+    
     $scope.itemChecker = function (itemsToCount, separator) {
         itemsToCount = $scope.items;
         separator = ",";
